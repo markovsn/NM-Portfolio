@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html style="font-size: 16px" lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>PlanIt Go - Case Study</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/planitgo.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.min.js"
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+   crossorigin="anonymous"></script>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQF85CCSH3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YQF85CCSH3');
+</script>
+ <!-- Hotjar Tracking Code for https://www.hotjar.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3085739,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+
+<!-- Nav Bar -->
+<nav id="nav">
+    <div id="nav-container">
+        <div class="brand">
+            <h4>Nathan Markovski</h4>
+            <h5>UI/UX Designer</h5>
+        </div>
+        <div class="links">
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Writing</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="burger">
+            <i class="icon-burger material-icons">menu</i>
+            <i class="icon-x hidden material-icons">close</i>
+        </div>
+</nav>
+
+<div id="modal-menu" class="hidden">
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Writing</a>
+    <a href="#">Contact</a>
+</div>
+
+<body>
+ <!-- Hero -->
+    <header id="cs-hero-container"> 
+            <div id="cs-hero">
+                <div class="cs-title">
+                <h1>PLANIT GO</h1>
+                <h2>Mobile application</h2>
+                </div>
+                <div class="mockup"></div>
+                <div class="cs-text">
+                    <div class="left">
+                        <div id="challenge" class="cs-text-container">
+                            <h3>Challenge</h3>
+                            <p class="regular">Design a mobile application that solves a user problem associated with the planning of travel. </p>
+                        </div> 
+                        <div id="solution" class="cs-text-container">
+                            <h3>Solution</h3>
+                            <p class="regular">PlanIt Go simplifies the travel planning experience by helping users feel familiar with unfamiliar destinations and plan travel in a fun, flexible and collaborative way.</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="role" class="cs-text-container">
+                            <h3>My role</h3>
+                            <p class="regular">Sole UI/UX Designer</p>
+                        </div> 
+                        <div id="timing" class="cs-text-container">
+                            <h3>Timing</h3>
+                            <p class="regular">Three weeks</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+    </header>
+        <div id="horizontal-ln"></div>
+
+
+<!-- Research -->
+<section class="segment-container">
+    <div><h2 class="segment-heading">Research</h2><div>
+
+    <div id="user-insight" class="cs-segment">
+        <div class="text">
+            <h3>User Insights</h3>
+            <p class="regular">I conducted <strong>seven user interviews</strong> with potential users between the ages of 23 and 55 years. 
+                <br><br>
+                I found that young people, between ages 20 and 30, may struggle to plan travel with friends due to conflicting interests and budgets. 
+                <br><br>
+                They tend to use multiple apps and websites, which results in information being lost or duplicated. They are also more likely to book through a travel agent if planning feels too complicated or unfamiliar. 
+                </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="persona" class="cs-segment">
+        <div class="text">
+            <h3>Persona</h3>
+            <p class="regular">I developed a persona to better understand the goals and frustrations of a typical user, and help identify solutions. 
+                <br><br>
+                <!-- I could do this by providing travellers location-specific information and a single platform to communicate, interact and share information with eachother. -->
+                </p>
+        </div>
+        <div class="image"></div>
+    </div>
+    
+</section>
+
+<div class="call-out">
+    <div class="call-out-text"><H3>How might we improve the travel planning process so that young travellers are motivated and inspired to book their next holiday together?</H3></div>
+</div>
+
+<!-- IDEATION -->
+<section class="segment-container">
+    <div><h2 class="segment-heading">Ideation</h2><div>
+
+    <div id="value-proposition" class="cs-segment">
+        <div class="text">
+            <h3>Value Proposition</h3>
+            <p class="regular">I prepared a value proposition matrix following brainstorming of potential feature ideas. The core features that I prioritised were:
+                <li>Live and interactive planning tools that users can invite fellow travellers to.</li>
+                
+                <li>Itinerary creator that can extract information from booking confirmations.</li>
+                
+                <li>A library of location-specific information and recommendations to facilitate planning.</li>
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="competitor-analysis" class="cs-segment">
+        <div class="text">
+            <h3>Competitor Analysis</h3>
+            <p class="regular">A high-level analysis of competitor products found that they:
+
+                <li>Lack collaboration and communication tools to help users to plan travel with company.</li>
+                <li>Do not allow users to share their travel experiences and itineraries with other users.</li>
+                <li>Lack budgeting tools to help users track and split expenses.</li>
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="storyboard" class="cs-segment">
+        <div class="text">
+
+            <h3>Storyboard</h3>
+            <p class="regular">I designed a storyboard to visually showcase the journey a typical user would take once downloading PlanIt Go. It helped me imagine how to design the key features before sketching.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+</section>
+
+<div id="logo" class="call-out">
+    <div class="logo-container"></div>
+    <div class="call-out-text"><h3>Relaxation shouldn’t start once you’re on holiday.</h3> <br> PlanIt Go helps you organise travel in a fun, flexible and collaborative way.
+    </div>
+</div>
+
+<!-- DESIGNING -->
+
+<section class="segment-container">
+    <div><h2 class="segment-heading">Design</h2><div>
+
+    <div id="sketching" class="cs-segment">
+        <div class="text">
+            <h3>Sketching</h3>
+            <p class="regular">I used quick sketch iterations to visualise various layouts before wireframing.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="wireframing" class="cs-segment">
+        <div class="text">
+            <h3>Wireframing</h3>
+            <p class="regular">I focused on wireframing the high impact pages of creating a trip to demonstrate functionality and conduct user testing.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="testing" class="cs-segment">
+        <div class="text">
+            <h3>Testing</h3>
+            <p class="regular">I conducted five user tests to understand how effectively users could create a trip and locate various items. A number of pain points were identified and addressed in the proceeding versions.</p>
+            <p class="regular">For example, the voting action on the item containers was improved by adding an interactive and animated button to clearly signify the action required.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+</section>
+
+<div id="logo" class="call-out">
+    <div class="logo-container"></div>
+    <div class="call-out-text"><h3>Relaxation shouldn’t start once you’re on holiday.</h3> <br> PlanIt Go helps you organise travel in a fun, flexible and collaborative way.
+    </div>
+</div>
+
+
+<!-- MOCKUPS -->
+<section id="MOCKUPS" class="final-segment-container">
+    <div><h2 class="segment-heading">Final design</h2><div>
+
+    <div id="explore" class="final-cs-segment">
+        <div><h3>Explore</h3></div>
+        <div class="text">
+            <p class="regular">Users can search for places and things to do. Carousels are used to allow users to quickly navigate across (by scrolling down) and within (by scrolling left and right) cateogories. Items can be easily bookmarked by swiping right</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="plan" class="final-cs-segment">
+        <div><h3>Plan</h3></div>
+        <div class="text">
+            <p class="regular">Users can create a trip and invite their fellow travellers to collaboratively plan their trip. Users can add, archive and delete items and vote for their favourite items to facilitate consensus</p>
+        </div>
+        <div class="image"></div>
+    </div>
+    </div>
+
+    <div id="organise" class="final-cs-segment">
+        <div><h3>Organise</h3></div>
+        <div class="text">
+            <p class="regular">Users can finalise their plans by creating an itinerary. Users can add items manually or upload their booking confirmations, which automatically extracts key information. Itineraries can be edited collaboratively, printed and shared.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+    </div>
+
+</section>
+
+<!-- Recommendations -->
+
+<section id="next-reading">
+    <h2 class="segment-heading">Continue reading</h2>
+
+    <div id="curiado" class="small-container">
+        <h3>Curiado</h3>
+        <div class="image"></div>
+        <div class="cta">
+            <button class="btn-secondary">View case study</button>
+        </div>
+    </div>
+
+    <div id="dfat" class="small-container">
+        <h3>Department of Foreign Affairs & Trade</h3>
+        <div class="image"></div>
+        <div class="cta">
+                <button class="btn-secondary">View case study</button>
+        </div>
+    </div>
+        
+</section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="links">
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Writing</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="signature"><p class="regular">Nathan Markovski - 2022</p></div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body> 
+</html>
+

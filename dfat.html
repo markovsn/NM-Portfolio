@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html style="font-size: 16px" lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>DFAT - Case Study</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/dfat.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;700&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.min.js"
+   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+   crossorigin="anonymous"></script>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQF85CCSH3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YQF85CCSH3');
+</script>
+ <!-- Hotjar Tracking Code for https://www.hotjar.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3085739,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+
+<!-- Nav Bar -->
+<nav id="nav">
+    <div id="nav-container">
+        <div class="brand">
+            <h4>Nathan Markovski</h4>
+            <h5>UI/UX Designer</h5>
+        </div>
+        <div class="links">
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Writing</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="burger">
+            <i class="icon-burger material-icons">menu</i>
+            <i class="icon-x hidden material-icons">close</i>
+        </div>
+</nav>
+
+<div id="modal-menu" class="hidden">
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Writing</a>
+    <a href="#">Contact</a>
+</div>
+
+<body>
+ <!-- Hero -->
+    <header id="cs-hero-container"> 
+            <div id="cs-hero">
+                <div class="cs-title">
+                <h1>Department of Foreign Affairs and Trade</h1>
+                <h2>Website redesign</h2>
+                </div>
+                <div class="mockup"></div>
+                <div class="cs-text">
+                    <div class="left">
+                        <div id="challenge" class="cs-text-container">
+                            <h3>Challenge</h3>
+                            <p class="regular">The DFAT website is a complicated repository of information related to Australia's foreign affairs and trade. Poor information hierarchy and architecture are diminishing the user experience, as finding information is tedious and time consuming.  </p>
+                        </div> 
+                        <div id="solution" class="cs-text-container">
+                            <h3>Solution</h3>
+                            <p class="regular">Redesigning the information architecture of the navigation bar to make it easier for users to find the information they need. Updating the interface design of the homepage to reduce visual noise and re-priortise key sections. </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="role" class="cs-text-container">
+                            <h3>My role</h3>
+                            <p class="regular"> Sole UX/UI Designer </p>
+                        </div> 
+                        <div id="timing" class="cs-text-container">
+                            <h3>Timing</h3>
+                            <p class="regular">Three weeks</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+    </header>
+        <div id="horizontal-ln"></div>
+
+
+<!-- Research -->
+<section class="segment-container">
+    <div><h2 class="segment-heading">Research</h2><div>
+
+    <div id="evaluation" class="cs-segment">
+        <div class="text">
+            <h3>Website evaluation</h3>
+            <p class="regular">An initial scan of the website found a number of issues including:</p>
+            <li>large navigation dropdown menus with overwhelming amounts of text,</li>
+            <li>high levels of visual noise content is scattered across the page without effective use of grids or spacing,</li>
+            <li>dull use of colours that breached W3C colour accessibility standards.</li>
+
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="user-testing" class="cs-segment">
+        <div class="text">
+            <h3>User Testing</h3>
+            <p class="regular">Five user tests were conducted to determine how quickly and effectively users could navigate across the website.</p>
+            <p class="regular">Users found navigation frustrating and confusing by the general naming of the nav links and large dropdowns.  Users took notable time to scan through pages due to the volume of content and poor information hierarchy. </p>
+        </div>
+        <div class="image"></div>       
+    </div>
+    
+</section>
+
+<div class="call-out">
+    <div class="call-out-text">How might improve the navigation so that users can efficiently find the information they are searching for?</div>
+</div>
+
+<!-- IDEATION -->
+<section class="segment-container"> 
+    <div><h2 class="segment-heading">Information architecture</h2><div>
+
+    <div id="card-sorting" class="cs-segment">
+        <div class="text">
+            <h3>Card sorting</h3>
+            <p class="regular">I conducted a virtual card sorting activity with two participants by using the titles of the primary and secondary pages in the original navigation bar. Participants were free to arrange the cards in the existing categories or create their own. 
+
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="site-map" class="cs-segment">
+        <div class="text">
+            <h3>Site map</h3>
+            <p class="regular">Participants in the card sorting noted large amounts of topics that could be captured under a broader categories. Therefore, I condensed three previous nav categories into one broader category of "Policy Issues". </p>
+            <p class="regular">The new site map was informed by the results of the testing and card sorting. Primary nav categories were reduced from a total of seven to four. Sub categories were organised in alphabetical order to improve the speed of navigation. </p>
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="competitor-analysis" class="cs-segment">
+        <div class="text">
+            <h3>Competitor analysis</h3>
+            <p class="regular">I analysed the key features from the website homepages of several domestic and international government agencies with a similar focus as DFAT.  </p>
+            <p class="regular">I noticed most of these websites were designed with simplicity in mind. They had plenty of white space, navigation bars were simply with few links, and information was organised discrete containers and sections. </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+</section>
+
+<div id="logo" class="call-out">
+    <div class="logo-container"></div>
+</div>
+
+<!-- BUILDING -->
+
+<section class="segment-container">
+    <div><h2 class="segment-heading">Building</h2><div>
+
+    <div id="sketching" class="cs-segment">
+        <div class="text">
+            <h3>Sketching and wireframing</h3>
+            <p class="regular">I sketched out the design of the homepage with the idea of keeping things simple and structured. Headings were used to indicate seperation between sections. Cards were used to chunk information for improved readability. A 12 column grid was applied to the digital wireframes to ensure consistent spacing. 
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="testing" class="cs-segment">
+        <div class="text">
+            <h3>Testing</h3>
+            <p class="regular">I conducted two rounds of testing to determine how quickly users could complete several navigation tasks. I iterated the navigation bar based according to the findings.</p>
+            <p class="regular">For example, users found the initial navigation dropdown quite large. I focused on reducing its size in proceeding versions.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div id="responsive" class="cs-segment">
+        <div class="text">
+            <h3>Responsive design</h3>
+            <p class="regular">A 12 column grid was applied to all screens. Breakpoints were applied at ‘max-width: 950px’ for tablet and ‘max-width: 450px’ for mobile.</p>
+            <p class="regular">The navigation bar was hidden behind a burger menu from tablet mode. The search icon remained viewable in tablet and mobile as it was widely used by users to find information in the initial testing. </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+</section>
+
+<hr>
+<!-- Interface design -->
+
+<section id="style-guide">
+<div class="style-guide-container">
+    <h2 class="segment-heading">Style Guide</h2>
+    <p class="regular">I developed a style guide to showcase the key branding elements for the app design. The branding takes a 'hand drawn' effect with the abundant use of white and black outlines. Bright colours are used sparringly to signify a fun and energy.</p>
+    <button type="button" class="collapsible">View style guide</button>
+    <div class="content">
+<hr>
+    <div id="brand-personality">
+        <h3>Brand personality</h3>
+        <div class="brand-bubbles">
+            <div class="word-container"><p class="styled">Professional</p></div>
+            <div class="word-container"><p class="styled">Reliable</p></div>
+            <div class="word-container"><p class="styled">Altruistic</p></div>
+            <div class="word-container"><p class="styled">Intellectual</p></div>
+        </div>
+    </div>
+<hr>
+    <div id="logo-preview">
+        <div><h3>Logo</h3></div>
+        <div class="logo-images">
+            <div class="logo-white"></div>
+            <div class="logo-black"></div>
+        </div>
+    </div>
+<hr>
+   <div id="colours">
+        <h3>Brand colours</h3>
+        <h4>Primary colours</h4>
+        <div id="bilateral-blue" class="brand-colours">
+            <div class="colour-container">
+                <div class="main-colour"></div>
+                <div class="mid-shade"></div>
+                <div class="light-shade"></div>
+            </div>
+            <div class="colour-info">
+                <div class="colour-name"><p class="caption"><strong>Bilateral Blue</strong></p></div>
+                <div class="hex-code"><p class="caption">#00446E</p></div>
+                <div class="usage"><p class="caption">Usage: 35%</p></div>
+            </div>
+        </div>
+
+        <div id="white" class="brand-colours">
+            <div class="colour-container">
+                <div class="main-colour"></div>
+                <div class="mid-shade"></div>
+                <div class="light-shade"></div>
+            </div>
+            <div class="colour-info">
+                <div class="colour-name"><p class="caption"><strong>White</strong></p></div>
+                <div class="hex-code"><p class="caption">#FFFFFF</p></div>
+                <div class="usage"><p class="caption">Usage: 40%</p></div>
+            </div>
+        </div>
+
+        <h4>Seconary colours</h4>
+        <div id="diplomatic-blue" class="brand-colours">
+            <div class="colour-container">
+                <div class="main-colour"></div>
+                <div class="mid-shade"></div>
+                <div class="light-shade"></div>
+            </div>
+            <div class="colour-info">
+                <div class="colour-name"><p class="caption"><strong>Diplomatic Blue</strong></p></div>
+                <div class="hex-code"><p class="caption">#072030</p></div>
+                <div class="usage"><p class="caption">Usage: 15%</p></div>
+            </div>
+        </div>
+
+        <div id="oceanic-blue" class="brand-colours">
+            <div class="colour-container">
+                <div class="main-colour"></div>
+                <div class="mid-shade"></div>
+                <div class="light-shade"></div>
+            </div>
+            <div class="colour-info">
+                <div class="colour-name"><p class="caption"><strong>Oceanic Blue</strong></p></div>
+                <div class="hex-code"><p class="caption">#107AA4</p></div>
+                <div class="usage"><p class="caption">Usage: 5%</p></div>
+            </div>
+        </div>
+ 
+        <div id="sunburnt-orange" class="brand-colours">
+            <div class="colour-container">
+                <div class="main-colour"></div>
+                <div class="mid-shade"></div>
+                <div class="light-shade"></div>
+            </div>
+            <div class="colour-info">
+                <div class="colour-name"><p class="caption"><strong>Sunburnt orange</strong></p></div>
+                <div class="hex-code"><p class="caption">#C96F2E</p></div>
+                <div class="usage"><p class="caption">Usage: 5%</p></div>
+            </div>
+        </div>
+    </div>
+<hr>
+    <!-- typography -->
+    <div id="typography">
+        <h3>Typography</h3>
+        <div id=“resp-table”></div>
+
+    <table class="table">
+        <thead>
+            <th>Type preview</th>
+            <th>Font family</th>
+            <th>Font size</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Type-preview" class="H1-preview">Headline 1</td>
+                <td data-label="Font-family">Archivo - Bold 700</td>
+                <td data-label="Font-size">38pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="H2-preview">Headline 2</td>
+                <td data-label="Font-family">Archivo - Bold 700</td>
+                <td data-label="Font-size">30pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="H3-preview">Headline 3</td>
+                <td data-label="Font-family">Zen Maru Gothic - Bold/Underline 700</td>
+                <td data-label="Font-size">22pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="H4-preview">Headline 4</td>
+                <td data-label="Font-family">Archivo - Bold 700</td>
+                <td data-label="Font-size">20pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="H5-preview">Headline 5</td>
+                <td data-label="Font-family">Archivo - Medium 500</td>
+                <td data-label="Font-size">18pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="H6-preview">Headline 5</td>
+                <td data-label="Font-family">Zen Maru Gothic - Bold 700</td>
+                <td data-label="Font-size">16pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview"class="Body-preview">Body</td>
+                <td data-label="Font-family">Zen Maru Gothic - Regular 400</td>
+                <td data-label="Font-size">16pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="Button-preview">Buttons and meta</td>
+                <td data-label="Font-family">Zen Maru Gothic - Medium 550</td>
+                <td data-label="Font-size">15pt</td>
+            </tr>
+            <tr>
+                <td data-label="Type-preview" class="caption-preview">Captions</td>
+                <td data-label="Font-family">Zen Maru Gothic - Light 300</td>
+                <td data-label="Font-size">15pt</td>
+            </tr>
+        </tbody>
+    </table>
+<hr>
+    <div id="buttons">
+        <h3>Buttons</h3>
+            <div class="dfat-btn-container">
+                <div><h4>Normal</h4></div>
+                <div><button class="btn-dfat" id="dfat-normal">Primary</button></div>
+            </div>
+            <div class="dfat-btn-container">
+                <div><h4>Active</h4></div>
+                <div><button class="btn-dfat" id="dfat-active">Primary</button></div>
+            </div>
+            <div class="dfat-btn-container">
+                <div><h4>Hover</h4></div>
+                <div><button class="btn-dfat" id="dfat-hover">Primary</button></div>
+            </div>
+            <div class="dfat-btn-container">
+                <div><h4>Focused</h4></div>
+                <div><button class="btn-dfat" id="dfat-focused">Primary</button></div>
+            </div>
+            <div class="dfat-btn-container">
+                <div><h4>Disabled</h4></div>
+                <div><button class="btn-dfat" id="dfat-disabled">Primary</button></div>
+            </div>
+    </div>
+
+    <hr>
+
+    <div id="icons">
+        <h3>Icons</h3>
+        <div id="icons-social" class="icons-container">
+            <h4>Social media</h4>
+            <div id="icon-twitter" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Twitter</p></div>
+            </div>
+            <div id="icon-facebook" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Facebook</p></div>
+            </div>
+            <div id="icon-instagram" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Instagram</p></div>
+            </div>
+            <div id="icon-youtube" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">YouTube</p></div>
+            </div>
+            <div id="icon-linkedin" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">LinkedIn</p></div>
+            </div>
+        </div>
+        
+        <div id="icons-navigation" class="icons-container">
+            <h4>Navigation</h4>
+            <div id="icon-arrow-down" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Arrow down</p></div>
+            </div>
+            <div id="icon-arrow-up" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Arrow up</p></div>
+            </div>
+            <div id="icon-arrow-left" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Arrow left</p></div>
+            </div>
+            <div id="icon-arrow-right" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Arrow right</p></div>
+            </div>
+            <div id="icon-search" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Search</p></div>
+            </div>
+            <div id="icon-menu" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Menu</p></div>
+            </div>
+            <div id="icon-close" class="icon-row">
+                <div class="icon-container"></div>
+                <div><p class="regular">Close</p></div>
+            </div>
+         </div>
+
+        <div id="icons-general" class="icons-container">
+            <h4>General</h4>
+            <div id="icon-email" class="icon-row">
+                    <div class="icon-container"></div>
+                    <div><p class="regular">Email</p></div>
+             </div>
+            <div id="icon-phone" class="icon-row">
+                    <div class="icon-container"></div>
+                    <div><p class="regular">Phone</p></div>
+             </div>
+              <div id="icon-document" class="icon-row">
+                    <div class="icon-container"></div>
+                    <div><p class="regular">Document</p></div>
+             </div>
+             <div id="icon-global" class="icon-row">
+                    <div class="icon-container"></div>
+                    <div><p class="regular">Global</p></div>
+             </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="components">
+        <h3>Components</h3>
+        <div id="checkbox" class="comps-container">
+            <div><h4>Checkbox</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="radio" class="comps-container">
+            <div><h4>Radio</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="toggle" class="comps-container">
+            <div><h4>Toggle</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="slider" class="comps-container">
+            <div><h4>Slider</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="pagination" class="comps-container">
+            <div><h4>Pagination</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="progress" class="comps-container">
+            <div><h4>Progress bar</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="breadcrumb" class="comps-container">
+            <div><h4>Breadcrumbs</h4></div>
+            <div class="comp-container"></div>
+        </div>
+        <div id="searchbar" class="comps-container">
+            <div><h4>Search bar</h4></div>
+            <div class="comp-container"></div>
+        </div>
+ 
+
+
+
+</div>
+</section>
+
+
+<!-- MOCKUPS -->
+<section id="mockups">
+    <div class="mockups-container">
+    <div><h2 class="segment-heading">Final design</h2><div>
+        <div id="homepage" class="final-cs-segment">
+            <div><h3>Homepage</h3></div>
+            <div><p class="regular">The homepage was redesigned using cards and containers to provide structure and reduce visual noise. Sections were reordered based on user needs. A collapsable section for emergency contacts appears first, followed by news and updates from the Department.</p></div>
+            <div class="image image-home"></div>
+            <div><h3>Countries and regions - European Union</h3></div>
+            <div class="image image-eu"></div>
+        </div>
+        <div id="navigation" class="final-cs-segment">
+            <div><h3>Navigation</h3></div>
+            <div><p class="regular">A horizontal navigation bar was maintained to save space on the homepage and provide more room for the dropdowns. Nav links were condensed into four broad categories to reduce choice overload. </p></div>
+            <div class="image image-nav"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Recommendations -->
+
+<section id="next-reading">
+    <h2 class="segment-heading">Continue reading</h2>
+
+    <div id="curiado" class="small-container">
+        <h3>Curiado</h3>
+        <div class="image"></div>
+        <div class="cta">
+            <button class="btn-secondary"><p class="btn-text">View case study</p></button>
+        </div>
+    </div>
+
+    <div id="dfat" class="small-container">
+        <h3>Department of Foreign Affairs & Trade</h3>
+        <div class="image"></div>
+        <div class="cta">
+                <button class="btn-secondary"><p class="btn-text">View case study</p></button>
+        </div>
+    </div>
+        
+</section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="links">
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Writing</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="signature"><p class="regular">Nathan Markovski - 2022</p></div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body> 
+</html>
+
