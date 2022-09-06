@@ -14,9 +14,9 @@
 :root {
     --page-margin: 2rem;
     --page-margin-mobile: 1rem;
-    --clr-primary: #070d51; 
-    --clr-accent: #00ff99;
-    --clr-light: #161e43;
+    --clr-primary: #020632; 
+    --clr-accent: #66c6ef;
+    --clr-light: #1136dd;
     --clr-white: #ffffff;
     --ln: 1px solid var(--clr-primary);
     --font: 'Sora', sans-serif;
@@ -132,6 +132,12 @@
     font-size: 18px;
     color: var(--clr-white);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-white);
   }
 
   .btn-secondary {
