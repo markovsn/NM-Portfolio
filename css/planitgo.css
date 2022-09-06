@@ -337,6 +337,7 @@
 
 #akf {
     background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
+    text-decoration: none;
 }
 
 #akf .image {
@@ -348,6 +349,7 @@
 
 #dfat {
     background: linear-gradient(to bottom right, #1a2980, #26d0ce);
+    text-decoration: none;
 }
 
 #dfat .image {
