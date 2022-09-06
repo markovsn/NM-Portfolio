@@ -422,8 +422,8 @@ nav {
     min-height: 200px;
     height: 32vw;
     max-height: 450px;
-    border: var(--ln);
     border-radius: 50%;
+    border: 3px solid white;
   }
 
   /* CASE STUDIES */
