@@ -495,14 +495,14 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
   }
 
 #case-study-planit .pic {
-  background-image: url(./images/planitgo/preview.png);
+  background-image: url(https://markovsn.github.io/NM-Portfolio/images/planitgo/preview.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #case-study-curiado .pic {
-  background-image: url(./images/curiado/mockup.png);
+  background-image: url(/markovsn.github.io/NM-Portfolio/images/curiado/mockup.png);
   background-position: centEr;
   background-size: contain;
   background-repeat: no-repeat;
