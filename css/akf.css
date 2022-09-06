@@ -842,7 +842,6 @@ gap: 2rem;}
 #next-reading h2 {
     grid-column: span 12;
     margin-bottom: 3rem;
-    color: white;
 }
 
 .small-container {
@@ -854,6 +853,8 @@ gap: 2rem;}
     margin-right: 3rem;
     gap: 2rem;
 }
+
+#next-reading h3 {color: white;}
 
 .small-container:last-child{
     margin-right: 0;
@@ -876,10 +877,10 @@ gap: 2rem;}
 }
 
 #curiado {
-    background: linear-gradient(to bottom right, #fffF57, #ae3fea);
+    background: linear-gradient(to bottom right, #ae3fea, #fffF57);
 }
 
-#planitgo .image {
+#curiado .image {
     background-image: url(/NM-Portfolio/images/curiado/mockup.png);
     background-position: center;
     background-size: contain;

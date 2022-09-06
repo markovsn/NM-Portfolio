@@ -317,7 +317,6 @@
 .small-container {
     grid-column: span 6;
     display: flex;
-    border: var(--ln);
     border-radius: 1rem;
     flex-direction: column;
     padding: 2rem 3rem;
@@ -332,7 +331,30 @@
 .small-container .image {
     height: auto;
     min-height: 250px;
-    border: var(--ln);
+}
+
+#next-reading h3 {color: white;}
+
+#akf {
+    background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
+}
+
+#akf .image {
+    background-image: url(/NM-Portfolio/images/akf/mockup.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#dfat {
+    background: linear-gradient(to bottom right, #1a2980, #26d0ce);
+}
+
+#dfat .image {
+    background-image: url(/NM-Portfolio/images/dfat/mockup.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 950px) {

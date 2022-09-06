@@ -789,7 +789,6 @@ gap: 2rem;}
 .small-container {
     grid-column: span 6;
     display: flex;
-    border: var(--ln);
     border-radius: 1rem;
     flex-direction: column;
     padding: 2rem 3rem;
@@ -804,8 +803,32 @@ gap: 2rem;}
 .small-container .image {
     height: auto;
     min-height: 250px;
-    border: var(--ln);
 }
+
+#next-reading h3 {color: white;}
+
+#planitgo {
+    background: linear-gradient(to bottom right, #005AC5, #8A36F6);
+}
+
+#planitgo .image {
+    background-image: url(/NM-Portfolio/images/planitgo/preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#curiado {
+    background: linear-gradient(to bottom right, #ae3fea, #fffF57);
+}
+
+#curiado .image {
+    background-image: url(/NM-Portfolio/images/curiado/mockup.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 @media screen and (max-width: 950px) {
     .small-container {grid-column: 2/12; margin-right: 0; margin-bottom: 3rem; padding: 1rem;}
