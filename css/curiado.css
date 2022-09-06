@@ -226,21 +226,21 @@
         
 
  #forum .image {
-    background: url(/NM-Portfolio/images/curiado/forums.png);
+    background: url(./images/curiado/forums.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #guides .image {
-    background: url(/NM-Portfolio/images/curiado/guides.png);
+    background: url(./images/curiado/guides.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #onboarding .image {
-    background: url(/NM-Portfolio/images/curiado/onboarding.png);
+    background: url(.images/curiado/onboarding.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
