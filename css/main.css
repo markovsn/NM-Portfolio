@@ -495,14 +495,14 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
   }
 
 #case-study-planit .pic {
-  background-image: url(https://markovsn.github.io/NM-Portfolio/images/planitgo/preview.png);
+  background-image: url(/NM-Portfolio/images/planitgo/preview.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #case-study-curiado .pic {
-  background-image: url(/markovsn.github.io/NM-Portfolio/images/curiado/mockup.png);
+  background-image: url(/NM-Portfolio/images/curiado/MOCKUPS.png);
   background-position: centEr;
   background-size: contain;
   background-repeat: no-repeat;
@@ -605,27 +605,27 @@ gap: 1.5rem;
 }
 
 #skill1 .icon {
-  background: url(/images/homepage/ux-research.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/ux-research.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill2 .icon {
-  background: url(/images/homepage/problem-solving.SVG), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(/NM-Portfolio/images/homepage/problem-solving.SVG), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill3 .icon {
-  background: url(/images/homepage/collaboration.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/collaboration.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill4 .icon {
-  background: url(/images/homepage/visual-design.SVG), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(/NM-Portfolio/images/homepage/visual-design.SVG), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill5 .icon {
-  background: url(/images/homepage/design-thinking.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/design-thinking.SVG), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill6 .icon {
-  background: url(/images/homepage/coding.SVG), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(/NM-Portfolio/images/homepage/coding.SVG), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 @media screen and (max-width: 960px) {
