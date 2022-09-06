@@ -356,6 +356,12 @@ nav {
     }
   }
 
+#hero .right .pfp {
+  background: url(/images/homepage/profile-photo.JPG);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
   #hero {
     padding: var(--page-margin);
