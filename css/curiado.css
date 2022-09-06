@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(/images/curiado/MOCKUPS.png), linear-gradient(to bottom right, #fffF57, #ae3fea);
+    background: url(/images/curiado/mockup.png), linear-gradient(to bottom right, #fffF57, #ae3fea);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -226,21 +226,21 @@
         
 
  #forum .image {
-    background: url(/images/curiado/Forums.png);
+    background: url(/images/curiado/forums.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #guides .image {
-    background: url(/images/curiado/Guides.png);
+    background: url(/images/curiado/guides.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #onboarding .image {
-    background: url(/images/curiado/Onboarding.png);
+    background: url(/images/curiado/onboarding.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
