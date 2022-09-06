@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(/images/dfat/mockup.png), linear-gradient(to right, #1a2980 ,#26d0ce);
+    background: url(/NM-Portfolio/images/dfat/mockup.png), linear-gradient(to right, #1a2980 ,#26d0ce);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -151,7 +151,7 @@
     width: 40vw;
     min-width: 150px;
     max-width: 600px;
-    background: url(/images/dfat/white-logo.png);
+    background: url(/NM-Portfolio/images/dfat/white-logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -164,42 +164,42 @@
 }
 
 #evaluation .image {
-    background: url(/images/dfat/current-website.png);
+    background: url(/NM-Portfolio/images/dfat/current-website.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #user-testing .image {
-    background: url(/images/dfat/testing-results.png);
+    background: url(/NM-Portfolio/images/dfat/testing-results.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #card-sorting .image {
-    background: url(/images/dfat/Card\ sorting.png);
+    background: url(/NM-Portfolio/images/dfat/Card\ sorting.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #site-map .image {
-    background: url(/images/dfat/site-map.png);
+    background: url(/NM-Portfolio/images/dfat/site-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #competitor-analysis .image {
-     background: url(/images/dfat/Competitor-analysis.png);
+     background: url(/NM-Portfolio/images/dfat/Competitor-analysis.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }
 
 #sketching .image {
-    background: url(/images/dfat/wireframing.png);
+    background: url(/NM-Portfolio/images/dfat/wireframing.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -207,14 +207,14 @@
 
 
     #testing .image {
-        background: url(/images/dfat/testing.png);
+        background: url(/NM-Portfolio/images/dfat/testing.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         }
 
         #responsive .image {
-            background: url(/images/dfat/responsive.png);
+            background: url(/NM-Portfolio/images/dfat/responsive.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -376,7 +376,7 @@
 }
 
 .logo-white {
-    background-image: url(/images/dfat/logo-white.png);
+    background-image: url(/NM-Portfolio/images/dfat/logo-white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -384,7 +384,7 @@
 }
 
 .logo-black {
-    background-image: url(/images/dfat/logo-black.png);
+    background-image: url(/NM-Portfolio/images/dfat/logo-black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -644,24 +644,24 @@ gap: 2rem;}
     height: 50px;
     width: 50px;}
 
-#icon-twitter .icon-container {background-image: url(/images/dfat/icon-twitter.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-instagram .icon-container {background-image: url(/images/dfat/icon-instagram.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-facebook .icon-container {background-image: url(/images/dfat/icon-facebook.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-youtube .icon-container {background-image: url(/images/dfat/icon-youtube.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-linkedin .icon-container {background-image: url(/images/dfat/icon-linkedin.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-twitter .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-twitter.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-instagram .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-instagram.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-facebook .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-facebook.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-youtube .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-youtube.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-linkedin .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-linkedin.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
-#icon-arrow-up .icon-container {background-image: url(/images/dfat/icon-up.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-down .icon-container {background-image: url(/images/dfat/icon-down.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-right .icon-container {background-image: url(/images/dfat/icon-right.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-left .icon-container {background-image: url(/images/dfat/icon-left.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-search .icon-container {background-image: url(/images/dfat/icon-search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-menu .icon-container {background-image: url(/images/dfat/icon-menu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-close .icon-container {background-image: url(/images/dfat/icon-close.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-up .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-up.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-down .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-down.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-right .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-right.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-left .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-left.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-search .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-menu .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-menu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-close .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-close.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
-#icon-email .icon-container {background-image: url(/images/dfat/icon-email.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-phone .icon-container {background-image: url(/images/dfat/icon-phone.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-document .icon-container {background-image: url(/images/dfat/icon-document.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-global .icon-container {background-image: url(/images/dfat/icon-global.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-email .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-email.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-phone .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-phone.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-document .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-document.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-global .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-global.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
 .icon-row {
     display: flex;
@@ -697,14 +697,14 @@ gap: 2rem;}
     min-height: 100px;
 }
 
-#checkbox .comp-container {background-image: url(/images/dfat/comp-check.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#radio .comp-container {background-image: url(/images/dfat/comp-radio.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#toggle .comp-container {background-image: url(/images/dfat/comp-toggle.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#slider .comp-container {background-image: url(/images/dfat/comp-slider.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#pagination .comp-container {background-image: url(/images/dfat/comp-pagination.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#progress .comp-container {background-image: url(/images/dfat/comp-progress.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#breadcrumb .comp-container {background-image: url(/images/dfat/breadcrumn.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#searchbar .comp-container {background-image: url(/images/dfat/searchbar.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#checkbox .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-check.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#radio .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-radio.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#toggle .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-toggle.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#slider .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-slider.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#pagination .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-pagination.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#progress .comp-container {background-image: url(/NM-Portfolio/images/dfat/comp-progress.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#breadcrumb .comp-container {background-image: url(/NM-Portfolio/images/dfat/breadcrumn.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#searchbar .comp-container {background-image: url(/NM-Portfolio/images/dfat/searchbar.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
 
 @media (max-width: 950px) {
@@ -747,21 +747,21 @@ gap: 2rem;}
 }
 
 .image-home {
-    background-image: url(/images/dfat/Homepage.png);
+    background-image: url(/NM-Portfolio/images/dfat/Homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
 }
 
 .image-nav {
-    background-image: url(/images/dfat/navigation.png);
+    background-image: url(/NM-Portfolio/images/dfat/navigation.png);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: scroll;
 }
 
 .image-eu {
-    background-image: url(/images/dfat/Website.png);
+    background-image: url(/NM-Portfolio/images/dfat/Website.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

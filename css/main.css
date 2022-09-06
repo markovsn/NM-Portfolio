@@ -40,7 +40,7 @@
   p.regular {
     font-family: var(--font);
     line-height: 2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   p.caption {
@@ -95,6 +95,12 @@
   strong {
     font-family: var(--font);
     font-size: 1.1rem;
+  }
+
+  .btn-text {
+    font-family: var(--font);
+    font-size: .9rem;
+    font-weight: 600;
   }
 
   @media screen and (max-width: 450px) {
