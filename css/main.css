@@ -495,14 +495,14 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
   }
 
 #case-study-planit .pic {
-  background-image: url(images/planitgo/preview.png);
+  background-image: url(../images/planitgo/preview.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #case-study-curiado .pic {
-  background-image: url(images/curiado/mockup.png);
+  background-image: url(../images/curiado/mockup.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -510,7 +510,7 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
 
 
 #case-study-dfat .pic {
-  background-image: url(/images/dfat/mockup.png);
+  background-image: url(../images/dfat/mockup.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -518,7 +518,7 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
 
 
 #case-study-koala .pic {
-  background-image: url(/images/akf/mockup.png);
+  background-image: url(../images/akf/mockup.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
