@@ -830,6 +830,10 @@ gap: 2rem;}
 }
 
 /*  Next reading  */
+.prototype-btn {
+    margin-bottom: 2rem;
+}
+
 #next-reading {
     padding: var(--page-margin);
     margin: 0 auto;
