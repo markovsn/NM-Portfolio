@@ -60,7 +60,7 @@
     font-size: 3.1rem;
     font-stretch: extra-expanded;
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: var(--clr-primary);
     margin-bottom: 1rem;
   }
 
@@ -114,10 +114,14 @@
     p.caption {font-size: .9rem}
     p.large {font-size: 1.2rem;}
     .location p {font-size: .9rem}
-
-
   }
     
+  #hero h1 {
+    color: white !important;
+  }
+  #contact h1 {
+    color: white !important;
+  }
 
 
   /* BUTTONS */
