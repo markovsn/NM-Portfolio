@@ -208,7 +208,7 @@ nav {
   #nav-container a {
     color: var(--clr-white);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
     font-family: var(--font);
     font-weight: 600;
   }
@@ -638,23 +638,23 @@ gap: 1.5rem;
 }
 
 #skill1 .icon {
-  background: url(https://markovsn.github.io//NM-Portfolio/images/homepage/ux-research.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/ux-research.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill2 .icon {
-  background: url(https://markovsn.github.io//NM-Portfolio/images/homepage/problem-solving.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(/NM-Portfolio/images/homepage/problem-solving.svg), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill3 .icon {
-  background: url(https://markovsn.github.io//NM-Portfolio/images/homepage/collaboration.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/collaboration.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill4 .icon {
-  background: url(https://markovsn.github.io//NM-Portfolio/images/homepage/visual-design.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(/NM-Portfolio/images/homepage/visual-design.svg), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill5 .icon {
-  background: url(https://markovsn.github.io//NM-Portfolio/images/homepage/design-thinking.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(/NM-Portfolio/images/homepage/design-thinking.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill6 .icon {
