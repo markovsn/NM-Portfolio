@@ -15,7 +15,7 @@
     --page-margin: 2rem;
     --page-margin-mobile: 1rem;
     --clr-primary: #020632; 
-    --clr-accent: #66c6ef;
+    --clr-accent: #66efb8;
     --clr-light: #1136dd;
     --clr-white: #ffffff;
     --ln: 1px solid var(--clr-primary);
@@ -156,8 +156,13 @@
     color: var(--clr-primary);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
-    
   }
+
+  .btn-secondary:hover {
+    background-color: #a7f6d6;
+  }
+
+
 
   #horizontal-ln {
     border-bottom: var(--ln);
