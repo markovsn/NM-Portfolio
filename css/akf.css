@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(/NM-Portfolio/images/akf/mockup.png), linear-gradient(to BOTTOM right, #3ca55c, #A8E37D);
+    background: url(../images/akf/mockup.png), linear-gradient(to BOTTOM right, #3ca55c, #A8E37D);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -186,7 +186,7 @@
     min-height: 100px;
     min-width: 100px;
     max-height: 200px;
-    background: url(/NM-Portfolio/images/akf/logo-vector-white.png);
+    background: url(../images/akf/logo-vector-white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -199,42 +199,42 @@
 }
 
 #ux-research .image {
-    background: url(/NM-Portfolio/images/akf/current-website.png); 
+    background: url(../images/akf/current-website.png); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #key-findings .image {
-    background: url(/NM-Portfolio/images/akf/comp-analysis.png);
+    background: url(../images/akf/comp-analysis.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #card-sorting .image {
-    background: url(/NM-Portfolio/images/dfat/Card\ sorting.png);
+    background: url(../images/dfat/Card\ sorting.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #persona .image {
-    background: url(/NM-Portfolio/images/akf/persona.png);
+    background: url(../images/akf/persona.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #feature-prioritisation .image {
-     background: url(/NM-Portfolio/images/akf/feature-prioritisation.png);
+     background: url(../images/akf/feature-prioritisation.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }
 
 #journey-map .image {
-    background: url(/NM-Portfolio/images/akf/Journey-map.png);
+    background: url(../images/akf/Journey-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -242,28 +242,28 @@
 
 
     #user-flow .image {
-        background: url(/NM-Portfolio/images/akf/user-flow.png);
+        background: url(../images/akf/user-flow.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         }
 
 #information-architecture .image {
-    background: url(/NM-Portfolio/images/akf/site-map.png);
+    background: url(../images/akf/site-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }
 
     #sketching .image {
-        background: url(/NM-Portfolio/images/akf/wireframing.png);
+        background: url(../images/akf/wireframing.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         }
 
         #responsive .image {
-            background: url(/NM-Portfolio/images/akf/responsive.png);
+            background: url(../images/akf/responsive.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -426,7 +426,7 @@
 }
 
 .logo-white {
-    background-image: url(/NM-Portfolio/images/akf/logo-icon.png);
+    background-image: url(../images/akf/logo-icon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -434,7 +434,7 @@
 }
 
 .logo-outline {
-    background-image: url(/NM-Portfolio/images/akf/logo-vector.png);
+    background-image: url(../images/akf/logo-vector.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -444,7 +444,7 @@
 
 
 .logo-black {
-    background-image: url(/NM-Portfolio/images/akf/logo-title.png);
+    background-image: url(../images/akf/logo-title.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -705,27 +705,27 @@ gap: 2rem;}
     height: 50px;
     width: 50px;}
 
-#icon-twitter .icon-container {background-image: url(/NM-Portfolio/images/akf/twitter.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-instagram .icon-container {background-image: url(/NM-Portfolio/images/akf/instagram.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-facebook .icon-container {background-image: url(/NM-Portfolio/images/akf/facebook.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-youtube .icon-container {background-image: url(/NM-Portfolio/images/akf/youtube.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-twitter .icon-container {background-image: url(../images/akf/twitter.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-instagram .icon-container {background-image: url(../images/akf/instagram.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-facebook .icon-container {background-image: url(../images/akf/facebook.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-youtube .icon-container {background-image: url(../images/akf/youtube.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
-#icon-arrow-up .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-up.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-down .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-down.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-right .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-right.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-arrow-left .icon-container {background-image: url(/NM-Portfolio/images/dfat/icon-left.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-search .icon-container {background-image: url(/NM-Portfolio/images/akf/search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-menu .icon-container {background-image: url(/NM-Portfolio/images/akf/menu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-close .icon-container {background-image: url(/NM-Portfolio/images/akf/close.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-up .icon-container {background-image: url(../images/dfat/icon-up.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-down .icon-container {background-image: url(../images/dfat/icon-down.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-right .icon-container {background-image: url(../images/dfat/icon-right.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-arrow-left .icon-container {background-image: url(../images/dfat/icon-left.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-search .icon-container {background-image: url(../images/akf/search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-menu .icon-container {background-image: url(../images/akf/menu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-close .icon-container {background-image: url(../images/akf/close.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
-#icon-coin .icon-container {background-image: url(/NM-Portfolio/images/akf/coin.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-person .icon-container {background-image: url(/NM-Portfolio/images/akf/person.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-card .icon-container {background-image: url(/NM-Portfolio/images/akf/card.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-donate .icon-container {background-image: url(/NM-Portfolio/images/akf/donate.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-plant .icon-container {background-image: url(/NM-Portfolio/images/akf/plant.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-adopt .icon-container {background-image: url(/NM-Portfolio/images/akf/adopt.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-volunteer .icon-container {background-image: url(/NM-Portfolio/images/akf/volunteer.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#icon-army .icon-container {background-image: url(/NM-Portfolio/images/akf/armu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-coin .icon-container {background-image: url(../images/akf/coin.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-person .icon-container {background-image: url(../images/akf/person.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-card .icon-container {background-image: url(../images/akf/card.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-donate .icon-container {background-image: url(../images/akf/donate.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-plant .icon-container {background-image: url(../images/akf/plant.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-adopt .icon-container {background-image: url(../images/akf/adopt.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-volunteer .icon-container {background-image: url(../images/akf/volunteer.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#icon-army .icon-container {background-image: url(../images/akf/armu.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
 .icon-row {
     display: flex;
@@ -761,14 +761,14 @@ gap: 2rem;}
     min-height: 100px;
 }
 
-#checkbox .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-check.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#toggle .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-toggle.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#text-field .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-text.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#pagination .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-pagination.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#progress .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-progress.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#breadcrumb .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-breadcrumbs.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#searchbar .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
-#subscribe .comp-container {background-image: url(/NM-Portfolio/images/akf/comp-search-1.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#checkbox .comp-container {background-image: url(../images/akf/comp-check.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#toggle .comp-container {background-image: url(../images/akf/comp-toggle.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#text-field .comp-container {background-image: url(../images/akf/comp-text.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#pagination .comp-container {background-image: url(../images/akf/comp-pagination.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#progress .comp-container {background-image: url(../images/akf/comp-progress.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#breadcrumb .comp-container {background-image: url(../images/akf/comp-breadcrumbs.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#searchbar .comp-container {background-image: url(../images/akf/comp-search.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
+#subscribe .comp-container {background-image: url(../images/akf/comp-search-1.png); background-position: center; background-repeat: no-repeat; background-size: contain;}
 
 @media (max-width: 950px) {
     .comps-container {grid-column: span 6;}
@@ -875,7 +875,7 @@ gap: 2rem;}
 }
 
 #planitgo .image {
-    background-image: url(/NM-Portfolio/images/planitgo/preview.png);
+    background-image: url(../images/planitgo/preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -887,7 +887,7 @@ gap: 2rem;}
 }
 
 #curiado .image {
-    background-image: url(/NM-Portfolio/images/curiado/mockup.png);
+    background-image: url(../images/curiado/mockup.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
