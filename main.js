@@ -16,10 +16,10 @@ burger.addEventListener('click', function() {
 jQuery(function($) {
     $(window).scroll(function(){
      if($(window).scrollTop() >50) {
-    $("#nav").addClass("nav-solid");}
+    $(".scroll").addClass("nav-solid");}
     
     else {
-    $("#nav").removeClass("nav-solid");}
+    $(".scroll").removeClass("nav-solid");}
     });
     });
 
