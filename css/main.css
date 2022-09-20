@@ -528,14 +528,14 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
   }
 
 #case-study-planit .pic {
-  background-image: url(/images/planitgo/preview.png);
+  background-image: url(../images/planitgo/preview.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #case-study-curiado .pic {
-  background-image: url(./images/curiado/mockup.png);
+  background-image: url(../images/curiado/mockup.png);
   background-position: centEr;
   background-size: contain;
   background-repeat: no-repeat;
@@ -551,7 +551,7 @@ background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
 
 
 #case-study-koala .pic {
-  background-image: url(/NM-Portfolio/images/akf/mockup.png);
+  background-image: url(../images/akf/mockup.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -638,27 +638,27 @@ gap: 1.5rem;
 }
 
 #skill1 .icon {
-  background: url(/NM-Portfolio/images/homepage/ux-research.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(../images/homepage/ux-research.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill2 .icon {
-  background: url(/NM-Portfolio/images/homepage/problem-solving.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/problem-solving.svg), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill3 .icon {
-  background: url(/NM-Portfolio/images/homepage/collaboration.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(../images/homepage/collaboration.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill4 .icon {
-  background: url(/NM-Portfolio/images/homepage/visual-design.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/visual-design.svg), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 #skill5 .icon {
-  background: url(/NM-Portfolio/images/homepage/design-thinking.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(../images/homepage/design-thinking.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
 }
 
 #skill6 .icon {
-  background: url(/NM-Portfolio/images/homepage/coding.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/coding.svg), linear-gradient(to right, #b13ce7, #530f72);
 }
 
 @media screen and (max-width: 960px) {
