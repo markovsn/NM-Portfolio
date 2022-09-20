@@ -16,10 +16,10 @@ burger.addEventListener('click', function() {
 jQuery(function($) {
     $(window).scroll(function(){
      if($(window).scrollTop() >50) {
-    $("#nav-container").addClass("nav-solid");}
+    $("#nav").addClass("nav-solid");}
     
     else {
-    $("#nav-container").removeClass("nav-solid");}
+    $("#nav").removeClass("nav-solid");}
     });
     });
 
@@ -41,10 +41,10 @@ jQuery(function($) {
     }
 
     
-    $("nav").find("a").click(function(e) {
-      e.preventDefault();
-      var section = $(this).attr("href");
-      $("html, body").animate({
-          scrollTop: $(section).offset().top
-      });
-  });
+  //   $("nav").find("a").click(function(e) {
+  //     e.preventDefault();
+  //     var section = $(this).attr("href");
+  //     $("html, body").animate({
+  //         scrollTop: $(section).offset().top
+  //     });
+  // });
