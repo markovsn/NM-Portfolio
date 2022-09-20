@@ -742,3 +742,8 @@ gap: 2rem;}
     .small-container {grid-column: span 12; margin-right: 0; margin-bottom: 3rem; padding: 1rem;}
     #next-reading {padding: var(--page-margin-mobile)}
     .small-container .image {min-height: 150px;}}
+
+
+#contact-form {
+    margin-top: 80px;
+}
