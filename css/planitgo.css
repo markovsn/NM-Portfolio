@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(/NM-Portfolio/images/planitgo/preview.png), linear-gradient(to right, #005AC5, #8A36F6);
+    background: url(../images/planitgo/preview.png), linear-gradient(to right, #005AC5, #8A36F6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -142,7 +142,7 @@
 .logo-container {
     min-height: 10rem;
     min-width: 25rem;
-    background: url(/NM-Portfolio/images/planitgo/logo-white.png);
+    background: url(../images/planitgo/logo-white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -155,42 +155,42 @@
 }
 
 #user-insight .image {
-    background: url(/NM-Portfolio/images/planitgo/user-insights.png);
+    background: url(../images/planitgo/user-insights.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #persona .image {
-    background: url(/NM-Portfolio/images/planitgo/persona.png);
+    background: url(../images/planitgo/persona.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #value-proposition .image {
-    background: url(/NM-Portfolio/images/planitgo/value-proposition.png);
+    background: url(../images/planitgo/value-proposition.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #competitor-analysis .image {
-    background: url(/NM-Portfolio/images/planitgo/competitor-analysis.png);
+    background: url(../images/planitgo/competitor-analysis.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #storyboard .image {
-     background: url(/NM-Portfolio/images/planitgo/storyboard.png);
+     background: url(../images/planitgo/storyboard.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }
 
 #sketching .image {
-    background: url(/NM-Portfolio/images/planitgo/sketches.png);
+    background: url(../images/planitgo/sketches.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -198,14 +198,14 @@
 
 
     #wireframing .image {
-        background: url(/NM-Portfolio/images/planitgo/wireframing.png);
+        background: url(../images/planitgo/wireframing.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         }
 
         #testing .image {
-            background: url(/NM-Portfolio/images/planitgo/testing.png);
+            background: url(../images/planitgo/testing.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -213,21 +213,21 @@
         
 
  #explore .image {
-    background: url(/NM-Portfolio/images/planitgo/mockup-explore.png);
+    background: url(../images/planitgo/mockup-explore.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #plan .image {
-    background: url(/NM-Portfolio/images/planitgo/mockup-plan.png);
+    background: url(../images/planitgo/mockup-plan.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #organise .image {
-    background: url(/NM-Portfolio/images/planitgo/mockup-organise.png);
+    background: url(../images/planitgo/mockup-organise.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -341,7 +341,7 @@
 }
 
 #akf .image {
-    background-image: url(/NM-Portfolio/images/akf/mockup.png);
+    background-image: url(../images/akf/mockup.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -353,7 +353,7 @@
 }
 
 #dfat .image {
-    background-image: url(/NM-Portfolio/images/dfat/mockup.png);
+    background-image: url(../images/dfat/mockup.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
