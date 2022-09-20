@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(/NM-Portfolio/images/curiado/mockup.png), linear-gradient(to bottom right, #fffF57, #ae3fea);
+    background: url(../images/curiado/mockup.png), linear-gradient(to bottom right, #fffF57, #ae3fea);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -147,7 +147,7 @@
 .logo-container {
     min-height: 10rem;
     min-width: 25rem;
-    background: url(/NM-Portfolio/images/curiado/Logo-plain.png);
+    background: url(../images/curiado/Logo-plain.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -160,42 +160,42 @@
 }
 
 #ux-research .image {
-    background: url(/NM-Portfolio/images/curiado/chart_1.png);
+    background: url(../images/curiado/chart_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #user-insight .image {
-    background: url(/NM-Portfolio/images/curiado/chart_2.png);
+    background: url(../images/curiado/chart_2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #persona .image {
-    background: url(/NM-Portfolio/images/curiado/persona.png);
+    background: url(../images/curiado/persona.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #feature-prioritisation .image {
-    background: url(/NM-Portfolio/images/curiado/feature_prioritisation.png);
+    background: url(../images/curiado/feature_prioritisation.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #competitor-analysis .image {
-     background: url(/NM-Portfolio/images/curiado/competitor-analysis.png);
+     background: url(../images/curiado/competitor-analysis.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }
 
     #user-flow .image {
-        background: url(/NM-Portfolio/images/curiado/user-flow.png);
+        background: url(../images/curiado/user-flow.png);
         background-position: center;
        background-repeat: no-repeat;
        background-size: contain;
@@ -203,7 +203,7 @@
    
 
 #sketching .image {
-    background: url(/NM-Portfolio/images/curiado/sketching.png);
+    background: url(../images/curiado/sketching.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -211,14 +211,14 @@
 
 
     #testing .image {
-        background: url(/NM-Portfolio/images/curiado/testing.png);
+        background: url(../images/curiado/testing.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         }
 
         #tesing .image {
-            background: url(/NM-Portfolio/images/planitgo/testing.png);
+            background: url(../images/planitgo/testing.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -226,21 +226,21 @@
         
 
  #forum .image {
-    background: url(/NM-Portfolio/images/curiado/forums.png);
+    background: url(../images/curiado/forums.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #guides .image {
-    background: url(/NM-Portfolio/images/curiado/guides.png);
+    background: url(../images/curiado/guides.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     }   
 
  #onboarding .image {
-    background: url(/NM-Portfolio/images/curiado/onboarding.png);
+    background: url(../images/curiado/onboarding.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -408,7 +408,7 @@
 }
 
 .logo-white {
-    background-image: url(/NM-Portfolio/images/curiado/Logo-white.png);
+    background-image: url(../images/curiado/Logo-white.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -416,7 +416,7 @@
 }
 
 .logo-black {
-    background-image: url(/NM-Portfolio/images/curiado/Logo-black.png);
+    background-image: url(../images/curiado/Logo-black.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -714,7 +714,7 @@ gap: 2rem;}
 }
 
 #akf .image {
-    background-image: url(/NM-Portfolio/images/akf/mockup.png);
+    background-image: url(../images/akf/mockup.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -726,7 +726,7 @@ gap: 2rem;}
 }
 
 #dfat .image {
-    background-image: url(/NM-Portfolio/images/dfat/mockup.png);
+    background-image: url(../images/dfat/mockup.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
