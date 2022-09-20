@@ -810,14 +810,14 @@ gap: 2rem;}
 }
 
 .image-home {
-    background-image: url(/NM-Portfolio/images/akf/homepage.png);
+    background-image: url(../images/akf/homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
 }
 
 .image-nav {
-    background-image: url(/NM-Portfolio/images/akf/Donation.jpg);
+    background-image: url(../images/akf/Donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
