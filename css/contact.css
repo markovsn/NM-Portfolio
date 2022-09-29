@@ -3,16 +3,14 @@
   }
 
 #contact-form {
-    max-width: var(--pg-width);
-        margin: 0 auto;
+
    }
 
 form {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     flex-direction: column;
     width: 100vw;
-    padding: var(--page-margin);
     max-width: var(--pg-width);
     margin: 0 auto;
 }
@@ -23,42 +21,47 @@ form {
 }
 
 input {
-    height: 5rem;
+    height: 70px;
+    width: 300px;
     padding: 1rem;
     font-family: var(--font);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: 1px solid var(--clr-light);
     border-radius: 1rem;
 }
 
 textarea {
-    height: 20rem;
-    padding: 1.2rem;
+    height: 15rem;
+    padding: 1rem;
     font-family: var(--font);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: 1px solid var(--clr-light);
     border-radius: 1rem;
     max-width: var(--pg-width);
 }
 
 h1 {
-    padding-top: 250px;
+    padding-top: 100px;
     padding-bottom: 2rem;
 }
 
-p {
+.hero p {
     font-family: var(--font);
-    font-size: 1.5rem;
-    line-height: 2.5rem;;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
 }
 
 
 .hero {
-    padding: var(--page-margin);
     max-width: var(--pg-width);
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 h3 {
     color: var(--clr-primary)
+}
+
+.text {
+    max-width: 800px;
 }
