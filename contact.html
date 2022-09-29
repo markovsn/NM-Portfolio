@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <title>Curiado - Case Study</title>
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/curiado.css">
+   <link rel="stylesheet" href="css/contact.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
 <!-- Nav Bar -->
 <nav id="nav">
     <div id="nav-container">
-       <div class="brand"> <a href="https://markovsn.github.io/NM-Portfolio">
+       <div class="brand"> <a href="https://www.kovskydesign.com/">
             <h4>Nathan Markovski</h4>
             <h5>UI/UX Designer</h5>
         </a></div>
@@ -65,28 +65,26 @@
     <a href="https://markovsn.github.io/NM-Portfolio/contact">Contact</a>
 </div>
 
+<div class="hero">
+  <h1>Reach out anytime</h1>
+  <p>Feel free to send me a message if you'd like to work together or to simply say hello. Be sure to leave your email so I can get back to you. </p>
+</div>
 <body>
     <div id="contact-form">
-    <form name="contact" method="POST" action="post" data-netlify="true">
+          <form name="contact" method="POST" action="post" data-netlify="true">
         <p>
-          <label>Your Name: <input type="text" name="name" /></label>
+          <label><h3>Name</h3> <input type="text" name="name" /></label>
         </p>
         <p>
-          <label>Your Email: <input type="email" name="email" /></label>
+          <label><h3>Email</h3> <input type="email" name="email" /></label>
         </p>
         <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
+          <label><h3>Message</h3> <textarea name="message"></textarea></label>
         </p>
         <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
+          <button type="submit" class="btn-primary">Send</button>
         </p>
       </form>
-    </div>
+  </div>
 </body>
 </html>
