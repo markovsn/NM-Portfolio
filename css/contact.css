@@ -8,11 +8,16 @@
 
 form {
     display: flex;
-    gap: 1rem;
     flex-direction: column;
+    gap: 2rem;
     width: 100vw;
     max-width: var(--pg-width);
     margin: 0 auto;
+}
+
+.name-email {
+    display: flex;
+    gap: 3rem;
 }
 
 #contact-form label { 
@@ -33,6 +38,7 @@ input {
 textarea {
     height: 15rem;
     padding: 1rem;
+    width: 100vw;
     font-family: var(--font);
     font-size: 1.1rem;
     border: 1px solid var(--clr-light);
@@ -41,7 +47,7 @@ textarea {
 }
 
 h1 {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 2rem;
 }
 
@@ -64,4 +70,13 @@ h3 {
 
 .text {
     max-width: 800px;
+}
+
+
+h4 {
+    padding-bottom: 1rem;
+}
+
+.message {
+    width: 100vw;
 }

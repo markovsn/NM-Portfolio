@@ -68,23 +68,18 @@
 <div class="hero">
   <h1>Reach out anytime</h1>
   <div class="text">
-  <p>Feel free to send me a message if you'd like to work together or to simply say hello. Be sure to leave your email so I can get back to you. </p>
+  <p>Feel free to send me a message if you'd like to work together or to simply say hello. <br>Be sure to leave your email so I can get back to you. </p>
     </div>
 </div>
 <body>
     <div id="contact-form">
           <form name="contact" method="POST" action="post" data-netlify="true">
-        <p>
-          <label><h4>Name</h4> <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label><h4>Email</h4> <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label><h4>Message</h4> <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit" class="btn-primary">Send</button>
+            <div class="name-email">
+        <div class="name"><label><h4>Name</h4> <input class="width" type="text" name="name" /></label></div>
+        <div class="email"><label><h4>Email</h4> <input cklass="width" type="email" name="email" /></div>
+          </div>
+        <div class="message"><label><h4>Message</h4> <textarea name="message"></textarea></label></div>
+        <div><button type="submit" class="btn-primary">Send</button></div>
         </p>
       </form>
   </div>
