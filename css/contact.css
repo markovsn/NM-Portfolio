@@ -2,9 +2,6 @@
     background-color: var(--clr-primary) !important;
   }
 
-#contact-form {
-
-   }
 
 form {
     display: flex;
@@ -46,7 +43,7 @@ textarea {
     max-width: var(--pg-width);
 }
 
-h1 {
+h2 {
     padding-top: 120px;
     padding-bottom: 2rem;
 }
