@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: monospace;
+    scroll-behavior: smooth;
   }
   
   html, body {
@@ -514,7 +515,7 @@ margin-left: 0;
 }
 
 #case-study-aca {
-background: linear-gradient(to bottom right, #F2EEEE, #483A3B);
+background: linear-gradient(to bottom right, #D6DCE5, #243467);
 }
 
 #case-study-koala {

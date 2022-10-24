@@ -26,7 +26,7 @@
     min-height: 250px;
     max-height: 700px;
     height: 40vw;
-    background: url(../images/aca/mockup-laptop.png), linear-gradient(to BOTTOM right, #F2EEEE, #483A3B);
+    background: url(../images/aca/mockup-laptop.png), linear-gradient(to BOTTOM right, #D6DCE5, #243467);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -489,7 +489,6 @@ min-width: 100px;
 
 .main-colour {
     width: 50%;
-    border-radius: 10px 0 0 0;
 }
 
 .mid-shade {
@@ -498,7 +497,6 @@ min-width: 100px;
 
 .light-shade {
     width: 25%;
-    border-radius: 0 10px 0 0;
 }
 
 .colour-info * > {
@@ -782,7 +780,7 @@ gap: 2rem;}
 .final-cs-segment .image {
     height: 50vh;
     min-height: 300px;
-    max-height: 800px;
+    height: 200vh;
 }
 
 .image-home {
@@ -799,6 +797,9 @@ gap: 2rem;}
     overflow: scroll;
 }
 
+#navigation h3 {
+    margin-top: 2rem;
+}
 
 @media (max-width: 450px) {
     .final-cs-segment .image {margin-bottom: 1rem;}
