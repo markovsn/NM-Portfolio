@@ -77,6 +77,7 @@
   font-family: var(--font);
   font-weight: 600;
   font-size: 1.8rem;
+  color: var(--clr-primary);
   }
   
   h4 {
@@ -378,8 +379,8 @@ nav {
   }
 
 #hero .right .pfp {
-  background: url(../images/homepage/profile-photo.JPG);
-  background-position: bottom;
+  background: url(../images/homepage/_B140079-2.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
