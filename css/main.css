@@ -41,7 +41,9 @@
   p.regular {
     font-family: var(--font);
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: --clr-primary
+    
   }
 
   p.caption {
@@ -64,6 +66,18 @@
     color: var(--clr-primary);
     margin-bottom: 1rem;
   }
+
+.cs-heading {
+  color: white !important;
+  
+}
+
+.cs-body {
+  color: white !important;
+  font-family: var(--font);
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
 
   h2 {
     text-decoration: none;

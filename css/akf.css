@@ -493,7 +493,6 @@ min-width: 100px;
 
 .main-colour {
     width: 50%;
-    border-radius: 10px 0 0 0;
 }
 
 .mid-shade {
@@ -502,7 +501,6 @@ min-width: 100px;
 
 .light-shade {
     width: 25%;
-    border-radius: 0 10px 0 0;
 }
 
 .colour-info * > {
@@ -806,7 +804,6 @@ gap: 2rem;}
 .final-cs-segment .image {
     height: 50vh;
     min-height: 300px;
-    max-height: 800px;
 }
 
 .image-home {
@@ -817,7 +814,7 @@ gap: 2rem;}
 }
 
 .image-nav {
-    background-image: url(../images/akf/Donation.jpg);
+    background-image: url(../images/akf/donation.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
