@@ -15,11 +15,13 @@
 :root {
     --page-margin: 2rem;
     --page-margin-mobile: 1rem;
-    --clr-primary: #020632; 
-    --clr-accent: #66efb8;
-    --clr-light: #1136dd;
-    --clr-white: #ffffff;
-    --ln: 1px solid var(--clr-primary);
+    --clr-primary: #1a1c2b; 
+    --clr-secondary: #356cd9;
+    --clr-accent: #975acc;
+    --clr-mid: #b2cdf9;
+    --clr-light: #f5f5ff;
+    --clr-white: #fafaff;
+    --ln: 1px solid var(--clr-mid);
     --font: 'Sora', sans-serif;
     --pg-width: 1200px;
   }
@@ -28,7 +30,7 @@
   .location p {
     font-family: var(--font);
     font-size: 1rem;
-    color: var(--clr-white);
+    color: var(--clr-primary);
     font-weight: 600;
   }
   
@@ -125,18 +127,18 @@
     h3 {font-size: 1.3rem}
     h4 {font-size: 1.1rem}
     h5 {font-size: 1.1rem}
-    p.regular {font-size: 1rem}
+    p.regular {font-size: 1.1rem}
     li {font-size: 1rem}
-    p.caption {font-size: .9rem}
+    p.caption {font-size: 1rem}
     p.large {font-size: 1.2rem;}
     .location p {font-size: .9rem}
   }
     
   #hero h1 {
-    color: white !important;
+    color: var(--clr-secondary) !important;
   }
   #contact h1 {
-    color: white !important;
+    color: var(--clr-secondary) !important;
   }
 
 
@@ -145,7 +147,7 @@
     padding: 0.5rem 2rem;
     border-radius: 1rem;
     border-style: none;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-secondary);
     min-height: 65px;
     font-family: var(--font);
     font-weight: 600;
@@ -156,15 +158,15 @@
   }
 
   .btn-primary:hover {
-    background-color: var(--clr-light);
-    color: var(--clr-white);
+    background-color: var(--clr-mid);
+    color: var(--clr-primary);
   }
 
   .btn-secondary {
     padding: 0.5rem 1.5rem;
     border-radius: 1rem;
     border-style: none;
-    background-color: var(--clr-accent);
+    background-color: var(--clr-light);
     min-height: 50px;
     font-family: var(--font);
     font-weight: 600;
@@ -175,7 +177,7 @@
   }
 
   .btn-secondary:hover {
-    background-color: #a7f6d6;
+    background-color: var(--clr-mid);
   }
 
 
@@ -191,17 +193,17 @@ nav {
     width: 100%;
     background: transparent;
     position: fixed;
-    border-bottom: 1px solid var(--clr-white);
+    border-bottom: 1px solid var(--clr-light);
     z-index: 3;
   }
 
   nav.hidden {
-    background-color: var(--clr-primary) !important;
+    background-color: var(--clr-white) !important;
     transition: 1s ease;
   }
 
   .nav-solid {
-    background-color: var(--clr-primary) !important;
+    background-color: var(--clr-white) !important;
     transition: background-color 600ms ease;
   }
 
@@ -222,7 +224,7 @@ nav {
   }
 
   #nav-container a {
-    color: var(--clr-white);
+    color: var(--clr-primary);
     text-decoration: none;
     font-size: 16px;
     font-family: var(--font);
@@ -237,17 +239,17 @@ nav {
   }
   
   nav a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: var(--clr-mid);
     color: var(--clr-primary) !important;
     font-weight: 600;
   }
 
   nav .brand {
-    color: var(--clr-white);
+    color: var(--clr-primary);
   }
   
   #nav .brand a:hover{
-    color: var(--clr-white) !important;
+    color: var(--clr-primary) !important;
     cursor: pointer;
   }
 
@@ -299,7 +301,7 @@ nav {
 /* BURGER */
 
 #burger {
-  color: white;
+  color: var(--clr-primary);
   background-color: transparent;
   cursor: pointer;
   display: none;
@@ -370,28 +372,16 @@ nav {
   /* HERO */
 #hero-container {
     margin-top: 0em;
-    background: linear-gradient(-45deg, #b13ce7, #356cd9, #23a6d5, #23d5ab);
+    background-color: var(--clr-light);
     background-size: 500%;
     animation: gradient 15s ease infinite;
-    color: white;
+    color: var(--clr-primary);
     height: 95vh; 
     min-height: 560px;
     display: flex;
     
   }
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
 #hero .right .pfp {
   background: url(../images/homepage/_B140079-2.jpg);
   background-position: center;
@@ -424,7 +414,7 @@ nav {
 .location span {
   font-size: 30px;
   font-weight: 600;
-  color: var(--clr-white);
+  color: var(--clr-primary);
 }
   
   @media screen and (max-width: 960px) {
@@ -465,7 +455,7 @@ nav {
     height: 32vw;
     max-height: 450px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 4px solid white;
   }
 
   /* CASE STUDIES */
@@ -477,6 +467,10 @@ nav {
     gap: 3rem;
     max-width: var(--pg-width);
     margin: 0 auto;
+  }
+
+  body {
+    background-color: var(--clr-light);
   }
 
   #work .case-study {
@@ -530,21 +524,21 @@ margin-left: 0;
 }
 
 #case-study-aca {
-background: linear-gradient(to bottom right, #D6DCE5, #243467);
+background: #243467;
 }
 
 #case-study-koala {
-background: linear-gradient(to bottom right, #3ca55c, #A8E37D);
+background: #3ca55c;
 }
 
 #case-study-curiado {
-  background: linear-gradient(to bottom right, #fffF57, #ae3fea);
+  background: #ae3fea;
   }
 #case-study-dfat {
-  background: linear-gradient(to bottom right, #1a2980, #26d0ce);
+  background: #1a2980;
 }
 #case-study-planit {
-   background: linear-gradient(to bottom right, #005AC5, #8A36F6);
+   background: #8A36F6;
   }
 
   #case-study-aca .pic {
@@ -666,27 +660,27 @@ gap: 1.5rem;
 }
 
 #skill1 .icon {
-  background: url(../images/homepage/ux-research.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(../images/homepage/ux-research.svg); background-color: var(--clr-secondary);
 }
 
 #skill5 .icon {
-  background: url(../images/homepage/responsive-01.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255)); background-position: center; background-repeat: no-repeat; background-size: contain;
+  background: url(../images/homepage/responsive-01.svg); background-color: var(--clr-secondary); background-position: center; background-repeat: no-repeat; background-size: contain;
 }
 
 #skill6 .icon {
-  background: url(../images/homepage/collaboration.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/collaboration.svg); background-color: var(--clr-accent);
 }
 
 #skill2 .icon {
-  background: url(../images/homepage/visual-design.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/visual-design.svg); background-color: var(--clr-accent);
 }
 
 #skill3 .icon {
-  background: url(../images/homepage/design-thinking.svg), linear-gradient(to left, var(--clr-primary), rgb(38, 0, 255));
+  background: url(../images/homepage/design-thinking.svg); background-color: var(--clr-secondary);
 }
 
 #skill4 .icon {
-  background: url(../images/homepage/coding.svg), linear-gradient(to right, #b13ce7, #530f72);
+  background: url(../images/homepage/coding.svg); background-color: var(--clr-accent);
 }
 
 @media screen and (max-width: 960px) {
@@ -708,7 +702,8 @@ gap: 1.5rem;
 /* Contact */
 
 #contact {
-  background: linear-gradient(-45deg, #b13ce7, #356cd9, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #b13ce7, #356cd9, #23a6d5, #23d5ab); */
+  background-color: var(--clr-light);
   background-size: 500%;
   animation: gradient 15s ease infinite;
   height: 20vh;
@@ -727,7 +722,7 @@ gap: 1.5rem;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  color: white;
+  color: var(--clr-primary);
 }
 
 .contact-buttons {
@@ -735,12 +730,16 @@ gap: 1.5rem;
   gap: 3rem;
 }
 
+.contact-container h1 {
+  color: var(--clr-secondary) !important;
+}
+
 /* Footer */
 
 #footer {
   height: 90px;
   border-top: var(--ln);
-  background-color: var(--clr-primary);
+  background-color: var(--clr-white);
   /* background: linear-gradient(-45deg, #b13ce7, #356cd9, #23a6d5, #23d5ab);
   background-size: 500%;
   animation: gradient 15s ease infinite; */
@@ -762,7 +761,7 @@ gap: 1.5rem;
 }
 
 .footer-container a {
-  color: var(--clr-white);
+  color: var(--clr-primary);
   text-decoration: none;
   font-size: 16px;
   font-family: var(--font);
@@ -777,7 +776,7 @@ gap: 1.5rem;
 }
 
   .footer-container #signature {
-    color: white;
+    color: var(--clr-primary);
     font-weight: 600;
   }
 
