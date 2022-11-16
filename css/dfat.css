@@ -17,6 +17,11 @@
     gap: 3rem;
   }
 
+
+h1 {
+    color: var(--clr-secondary);
+}
+
 .mockup {
     width: 100%;
     min-height: 250px;

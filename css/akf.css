@@ -53,6 +53,10 @@
     gap: 1rem;
 }
 
+h1 {
+    color: var(--clr-secondary);
+}
+
 
 @media screen and (max-width: 450px) {
     .cs-text .left {

@@ -76,7 +76,11 @@
     }
     
     
-    
+
+    h1 {
+        color: var(--clr-secondary);
+    }
+        
 /* Story */
 @media (max-width: 950px){
     #user-flow .image {height: 300px !important;}}
