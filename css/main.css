@@ -460,8 +460,8 @@ nav {
 
   @media screen and (max-width: 550px)
   {
-    #hero-container {
-      margin-top: 2rem;}
+    #hero {
+      margin-top: 80px;}
   }
 
   /* CASE STUDIES */
