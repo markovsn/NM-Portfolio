@@ -367,7 +367,7 @@ nav {
       font-size: 24px;
     }
   }
-  
+
   /* HERO */
 #hero-container {
     margin-top: 0em;
@@ -455,6 +455,13 @@ nav {
     max-height: 450px;
     border-radius: 50%;
     border: 4px solid white;
+  }
+
+
+  @media screen and (max-width: 550px)
+  {
+    #hero-container {
+      margin-top: 2rem;}
   }
 
   /* CASE STUDIES */
