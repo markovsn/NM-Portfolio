@@ -462,9 +462,11 @@ nav {
   {
     #hero {
       margin-top: 160px;
-      margin-bottom: 200px
     }
-  }
+
+    nav {
+      background: var(--clr-white);
+  }}
 
   /* CASE STUDIES */
 
