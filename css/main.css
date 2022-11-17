@@ -623,7 +623,12 @@ background: #3ca55c;
 @media (max-width: 550px) {
   #work .case-study {
     padding: 1rem;
-  }}
+  }
+  #work {
+    margin-top: 160px;
+  }
+
+}
 
 /* Skills  */
 #skills {
