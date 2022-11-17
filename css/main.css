@@ -137,7 +137,7 @@
     color: var(--clr-secondary) !important;
   }
   #contact h1 {
-    color: var(--clr-primary) !important;
+    color: var(--clr-light) !important;
   }
 
 
@@ -702,7 +702,7 @@ gap: 1.5rem;
 
 #contact {
   /* background: linear-gradient(-45deg, #b13ce7, #356cd9, #23a6d5, #23d5ab); */
-  background-color: var(--clr-mid);
+  background-color: var(--clr-secondary);
   background-size: 500%;
   animation: gradient 15s ease infinite;
   height: 20vh;
@@ -721,12 +721,13 @@ gap: 1.5rem;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  color: var(--clr-primary);
+  color: var(--clr-light);
 }
 
 .contact-buttons {
   display: flex;
   gap: 3rem;
+  color: var(--clr-light);
 }
 
 .contact-container h1 {

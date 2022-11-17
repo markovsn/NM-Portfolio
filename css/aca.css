@@ -810,7 +810,7 @@ gap: 2rem;}
 /*  Next reading  */
 .prototype-btn {
     margin-bottom: 2rem;
-    color: var(--clr-primary);
+    color: var(--clr-secondary);
 }
 
 #next-reading {
