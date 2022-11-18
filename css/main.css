@@ -159,6 +159,12 @@
   .btn-primary:hover {
     background-color: var(--clr-mid);
     color: var(--clr-primary);
+    -webkit-transform: translate(10%);
+    transform: translateY(5px);
+    transform: translateX(5px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.30);
+
+
   }
 
   .btn-secondary {
@@ -176,7 +182,12 @@
   }
 
   .btn-secondary:hover {
+    color: var(--clr-primary);
     background-color: var(--clr-mid);
+    -webkit-transform: translate(10%);
+    transform: translateY(5px);
+    transform: translateX(3px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.30);
   }
 
 
@@ -372,15 +383,26 @@ nav {
 #hero-container {
     margin-top: 0em;
     background-color: var(--clr-light);
-    background-size: 500%;
     animation: gradient 15s ease infinite;
     color: var(--clr-primary);
     height: 95vh; 
     min-height: 560px;
     display: flex;
-    
+  }
+
+  #hero-background {
+    background-image: url(../images/homepage/herotexture.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    overflow: hidden;
   }
   
+  
+
 #hero .right .pfp {
   background: url(../images/homepage/_B140079-2.jpg);
   background-position: center;
@@ -395,6 +417,7 @@ nav {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    z-index: 2;
   }
 
   #hero .location {
