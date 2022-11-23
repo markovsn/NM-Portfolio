@@ -81,6 +81,10 @@
   font-size: 1.1rem;
 }
 
+.horizontal-line {
+  border-bottom: var(--ln)
+}
+
   h2 {
     text-decoration: none;
     font-size: 2.6rem;
@@ -278,6 +282,7 @@ nav {
   align-items: center;
   gap: 1rem;
   transition: 600ms ease;
+  z-index: 2
 }
 
 #modal-menu.hidden {
@@ -391,7 +396,8 @@ nav {
   }
 
   #hero-background {
-    background-image: url(../images/homepage/herotexture.jpg);
+    /* background-image: url(../images/homepage/herotexture.jpg); */
+
     background-repeat: repeat;
     background-size: cover;
     height: 100%;
@@ -417,7 +423,7 @@ nav {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 1;
   }
 
   #hero .location {
