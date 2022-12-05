@@ -813,6 +813,7 @@ gap: 2rem;}
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
+    margin-bottom: 2rem;
 }
 
 .image-nav {
@@ -820,6 +821,7 @@ gap: 2rem;}
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;
+    margin-bottom: 2rem;
 }
 
 

@@ -769,6 +769,7 @@ gap: 2rem;}
     background-image: url(../images/dfat/Website.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 450px) {
